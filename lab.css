@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    background: url(https://i.pinimg.com/originals/e5/8a/e5/e58ae5ca3f368c6e490602a511c05ed2.jpg) ;
+  }
+  
+  h1 {
+    font-family : Monoton;
+    font-size : 70px;
+    margin : 0.2em;
+    border : 5px solid rgb(33, 123, 212) ;
+  }
+  
+  h2 {
+    border: 3px solid rgb(10, 50, 100);
+    margin: 1em 0 0.25em;
+  }
+  
+  h2:first-of-type {
+    margin-top: 0.5em;
+  }
+  strong {
+    font-style: italic ;
+    font-display: bold ;
+  }
+  
+  table,
+  tr,
+  td {
+    border: 1px solid black;
+  }
+  
+  table {
+    border-collapse: collapse;
+    margin: 0 auto;
+  }
+  
+  tr {
+    height: 20px;
+  }
+  
+  td {
+    width: 20px;
+  }
+  
+  input[type="number"] {
+    width: 6em;
+  }  
+  button{
+    margin-top: 10px;
+    /*border-block: 2px solid orange ;*/
+  }
+  button:hover{
+    background-color: sandybrown ;
+  }
